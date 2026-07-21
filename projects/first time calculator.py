@@ -108,7 +108,7 @@ if operator == "*":
 
 ## this code is learnt through AI: nagprompt ako nung kung paano i-classify yung num_1 as an integer and a float
 ## and also kung paano siya i-invalidate pag string ang user input
-## tangina hirap
+## tangina hirap ediwow
 
 
 

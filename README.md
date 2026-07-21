@@ -1,2 +1,2 @@
 pang malakasan only
-dito nako mababaliw mga erp
+\ndito nako mababaliw mga erp

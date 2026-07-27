@@ -1,0 +1,1 @@
+# try lang mini game, for learning purposes and learning python in general.

@@ -26,15 +26,15 @@ while valid_numbers is False:
 print()
 
 if temp >= 35:
-    print(f"The temperature is {temp}°C degrees Celcius, or {temp * 9/5 + 32}°F degrees Fahrenheit.")
-    print("init pre sa loob ka nalang ng bahay niyo")
+    print(f"The temperature is {temp}°C degrees Celcius, or {round(temp * 9/5 + 32, 2)}°F degrees Fahrenheit.")
+    print("init pre sa loob ka nalang ng bahay nRiyo")
 
 if temp < 35 and temp >= 20:
-    print(f"The temperature is {temp}°C degrees Celcius, or {temp * 9/5 + 32}°F degrees Fahrenheit.")
+    print(f"The temperature is {temp}°C degrees Celcius, or {round(temp * 9/5 + 32, 2)}°F degrees Fahrenheit.")
     print("saktuhan lang pre ok lang yan") 
 
 if temp < 20:
-    print(f"The temperature is {temp}°C degrees Celcius, or {temp * 9/5 + 32}°F degrees Fahrenheit.")
+    print(f"The temperature is {temp}°C degrees Celcius, or {round(temp * 9/5 + 32, 2)}°F degrees Fahrenheit.")
     print("lamig lamigan") 
 print()
 
@@ -52,4 +52,4 @@ try:
 except ValueError:
     temp = temp
 
-valid_numbers = isinstance(temp, (int, float))""""
+valid_numbers = isinstance(temp, (int, float))"""

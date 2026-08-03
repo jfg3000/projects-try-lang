@@ -41,7 +41,7 @@ print()
 # Problems Encountered:
 """print(" Weather weather ")
 temp = (input("What is the temperature outside? (°C): "))
-valid_numbers = isinstance(temp, (int, float))    
+valid_numbers = isinstance(temp, (int, float))  ############### EKIS TO PRE   
 # THIS VERY LINE WAS THE PROBLEM, BECAUSE IT WAS PUT BEFORE THE "TRY:", IT MEANS THAT IT WAS ALWAYS FALSE
 # SO BY REMOVING IT AND PUTTING IT AFTER THE "TRY:", IT NOW WORKS AS IT FUNCTIONS
 

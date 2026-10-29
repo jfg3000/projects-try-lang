@@ -8,7 +8,7 @@ try:
     if temp.is_integer():
         temp = int(temp)
 except ValueError:
-    temp = temp
+    temp = temp 
 
 valid_numbers = isinstance(temp, (int, float))
 
